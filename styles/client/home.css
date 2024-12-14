@@ -1,0 +1,73 @@
+.hero_box{
+    height: auto;
+}
+.hero_img{
+    z-index: 1;
+}
+.dots_img{
+    position: absolute;
+    right: 20px;
+    bottom: 48px;
+    z-index: 2;
+}
+.back_line_hero{
+    position: absolute;
+    top: 130px;
+    left: 90px;
+    z-index: 0;
+}
+
+.latest_status{
+    position: absolute;
+    height: 37px;
+    width: 412px;
+    border: 1px solid #ABB2BF;
+    z-index: 4;
+    bottom: -37px;
+    right: 36px;
+}
+.purpule_box{
+    width: 20px;
+    height: 20px;
+    background-color: #C778DD;
+}
+.contact_me_btn{
+    width: 148px;
+    height: 37px;
+    border: 1px solid #C778DD;
+    background-color: transparent;
+    transition: all ease-in .2s;
+}
+.contact_me_btn:hover{
+    background-color: rgba(0, 255, 255, 0.137);
+}
+
+
+@media only screen and (max-width:600px) {
+    .hero_img{
+        width: 316px;
+        height: 260px;
+    }
+    .dots_img{
+        width: 56px;
+        height: 56px;
+    }
+    .back_line_hero{
+        width: 104px;
+        height: 104px;
+        left: 64px;
+        top: 94px;
+    }
+    .latest_status{
+        width: 320px;
+        height: 54px;
+        left: 0;
+        right: 0;
+        font-size: 12px;
+        bottom: -54px;
+    }
+    .qoute_img{
+        width: 340px;
+        height: 80px;
+    }
+}

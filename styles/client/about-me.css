@@ -1,0 +1,46 @@
+.about_dots_img{
+    position: absolute;
+    top: 59px;
+    left: 66px;
+}
+.about_dots_img_2{
+    position: absolute;
+    top: 279px;
+    right: 80px;
+}
+.line_img{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    right: 0;
+}
+.Line_about_me{
+    min-width: 400px;
+    height: 2px;
+    background-color: #C778DD;
+}
+
+@media only screen and (max-width:600px) {
+    .about_mean_img{
+        width: 270px;
+        height: 378px;
+    }
+    .about_dots_img_2{
+        width: 74px;
+        height: 46px;
+        top: 210px;
+        right: 36px;
+    }
+    .about_dots_img{
+        width: 54px;
+        height: 54px;
+    }
+    .line_img{
+        width: 221px;
+        height: 1px;
+        right: 0;
+    }
+    .Line_about_me{
+        min-width: 220px;
+    }
+}

@@ -1,0 +1,44 @@
+.menu-content {
+  transition: all ease-in 0.3s;
+}
+.visible_lists {
+  visibility: visible;
+  opacity: 1;
+  animation: VisibleLists 0.7s 0;
+}
+.hidden_lists {
+  visibility: hidden;
+  opacity: 0;
+  animation: HiddenLists 0.7s 0;
+}
+.flesh_icon {
+  font-size: 22px;
+  transition: 0.4s;
+}
+.active_lists {
+  transform: rotate(-90deg);
+}
+.collapse_link:hover{
+    background-color: #DBE5F3;
+}
+
+@keyframes VisibleLists {
+  from {
+    display: none;
+    opacity: 0;
+  }
+  to {
+    display: block !important;
+    opacity: 1;
+  }
+}
+@keyframes HiddenLists {
+  from {
+    display: block;
+    opacity: 1;
+  }
+  to {
+    display: none !important;
+    opacity: 0;
+  }
+}

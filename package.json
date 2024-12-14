@@ -1,0 +1,21 @@
+{
+  "name": "portifillo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "framer-motion": "^11.5.3",
+    "materialize-css": "^1.0.0-rc.2",
+    "next": "^14.2.20",
+    "react": "^18",
+    "react-dom": "^18",
+    "sharp": "^0.33.5"
+  }
+}

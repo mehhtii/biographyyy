@@ -1,0 +1,89 @@
+body {
+  background-color: #282c33 !important;
+}
+
+.common_fix_elements {
+  width: 40px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  transition: all ease-in .2s;
+}
+.active_fix_element{
+  visibility: visible;
+  opacity: 1;
+}
+.hide_fix_element{
+  visibility: hidden;
+  opacity: 0;
+}
+.vertical_line {
+  width: 1.5px;
+  height: 191px;
+  background-color: #abb2bf;
+  margin-left: 22.5px;
+  z-index: 999;
+}
+.common_fix_button {
+  background-color: #abb2bf !important;
+  margin-top: 8px;
+  margin-left: 6px;
+}
+.telegram_icon {
+  margin-top: 1px;
+}
+
+.navbar {
+  height: 61px;
+  color: #abb2bf;
+}
+
+.active_menu {
+  animation: showMenu 1s 0s;
+}
+
+.hide_menu {
+  animation: hideMenu 1s 0s;
+}
+
+.active_closed_btn{
+  animation: showMenu 1s 0s;
+}
+.hide_closed_btn{
+  animation: hideMenu 1s 0s;
+}
+
+@keyframes showMenu {
+  from {
+    transform: scale(0.466);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes hideMenu {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.466);
+  }
+}
+
+.responsive_menu{
+  z-index: 1000;
+  transition: all ease-in .3s;
+  background-color: #282c33;
+}
+.active_responsive_menu{
+  width: 100%;
+}
+.hide_responsive_menu{
+  width: 0;
+}
+
+.line_div_navbar{
+  height: 1px;
+  width: 90%;
+  background-color: lightcyan !important;
+}
